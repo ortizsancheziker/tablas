@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horari setmanal - 1r SMX</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+            margin: 0;
+            padding: 20px;
+        }
+
+        table {
+            width: 100%;
+            max-width: 1000px;
+            margin: 0 auto;
+            border-collapse: collapse;
+            table-layout: fixed;
+            font-size: 13px;
+            color: black;
+        }
+
+        caption {
+            font-size: 18px;
+            font-weight: bold;
+            padding: 12px;
+            color: black;
+        }
+
+        th, td {
+            border-bottom: 1px solid rgb(10, 10, 10);
+            padding: 12px 8px;
+            text-align: center;
+            height: 42px;
+        }
+
+        thead th {
+            font-weight: bold;
+            background-color: rgb(71, 214, 159);
+        }
+
+        th:first-child,
+        td:first-child {
+            width: 13%;
+            text-align: left;
+        }
+
+        .pati {
+            background-color: rgb(84, 196, 144);
+            font-weight: bold;
+            border-radius: 6px;
+            height: 40px;
+        }
+
+        .xarxes {
+            background-color: rgb(115, 177, 238);
+            border-radius: 6px;
+            font-weight: bold;
+            line-height: 1.5;
+        }
+
+        .projecte {
+            background-color: rgb(224, 122, 139);
+            border-radius: 6px;
+            font-weight: bold;
+            line-height: 1.5;
+        }
+
+        tfoot td {
+            border: none;
+            text-align: center;
+            font-weight: bold;
+            padding: 16px;
+            font-size: 12px;
+        }
+
+        @media (max-width: 650px) {
+            body {
+                padding: 5px;
+            }
+
+            table {
+                font-size: 10px;
+            }
+
+            th, td {
+                padding: 7px 3px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+
+        <caption>HORARI SETMANAL - 1r SMX</caption>
+
+        <thead>
+            <tr>
+                <th>Hora</th>
+                <th>Dilluns</th>
+                <th>Dimarts</th>
+                <th>Dimecres</th>
+                <th>Dijous</th>
+                <th>Divendres</th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+            <tr>
+                <td>8:00/9:00</td>
+                <td>Matematiques</td>
+                <td>Angles</td>
+                <td>Informatica</td>
+                <td>Catala</td>
+                <td>Ciencies</td>
+            </tr>
+
+            <tr>
+                <td>9:00/10:00</td>
+                <td>Matematiques</td>
+                <td>Programacio</td>
+                <td>Informatica</td>
+                <td>Angles</td>
+                <td>Ciencies</td>
+            </tr>
+
+            <tr>
+                <td>10:00/11:00</td>
+                <td>Programacio</td>
+                <td>Programacio</td>
+                <td>Castella</td>
+                <td>Matematiques</td>
+                <td>Tutoria</td>
+            </tr>
+
+            <tr>
+                <td>11:00/11:30</td>
+                <td colspan="5" class="pati">
+                    PATI / DESCANS
+                </td>
+            </tr>
+
+            <tr>
+                <td>11:30/12:30</td>
+                <td>Angles</td>
+                <td>Ciencies</td>
+                <td rowspan="2" class="xarxes">
+                    TALLER DE XARXES<br>
+                    (2 hores)
+                </td>
+                <td>Programacio</td>
+                <td rowspan="2" class="projecte">
+                    PROJECTE<br>
+                    (2 hores)
+                </td>
+            </tr>
+
+            <tr>
+                <td>12:30/13:30</td>
+                <td>Catala</td>
+                <td>Informatica</td>
+                <td>Programacio</td>
+            </tr>
+
+            <tr>
+                <td>13:30/14:30</td>
+                <td>Castella</td>
+                <td>Matematiques</td>
+                <td>Angles</td>
+                <td>Ciencies</td>
+                <td>Informatica</td>
+            </tr>
+
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="6">
+                    Curs 2026/2027 | Grup: 1r SMX | Aula: Informatica 2
+                </td>
+            </tr>
+        </tfoot>
+
+    </table>
+
+</body>
+</html>
+
+</body>
+</html>
